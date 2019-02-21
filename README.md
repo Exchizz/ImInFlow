@@ -22,7 +22,7 @@ echo -n "red" | nc -w 1 -u localhost 1337
 ```
 
 ## How to run as a service ?
-1. Copy imbusy.service to /etc/systemd/system/
+1. Copy iminflow.service to /etc/systemd/system/
 2. Edit WorkingDirectory in /etc/systemd/system/iminflow.service
 3. Sudo systemctl start iminflow
 4. Verify it's running: sudo systemctl status iminflow
