@@ -18,7 +18,7 @@ sudo nodejs index.js
 4. Send a udp packet consisting of whatever color you want the busylight to show..
 ex.
 ```
-echo -n "red" | nc -u localhost 1337
+echo -n "red" | nc -w 1 -u localhost 1337
 ```
 
 
