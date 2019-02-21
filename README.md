@@ -28,6 +28,13 @@ echo -n "red" | nc -w 1 -u localhost 1337
 4. Verify it's running: sudo systemctl status iminflow
 5. If running as expected, add to startup: sudo systemctl enable iminflow.service
 
+### Some extra
+```
+alias shallow='echo -n "green" | nc -w 1 -u localhost 1337'
+alias deep='echo -n "red" | nc -w 1 -u localhost 1337'
+
+```
+
 ### Note
 If you wanna control the daemon over the network, remember to bind to 0.0.0.0 or whatever interface you want the daemon to listen on(default is localhost)
 Yes, yes it's written in javascript:b
