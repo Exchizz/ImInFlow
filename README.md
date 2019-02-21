@@ -1,10 +1,10 @@
 # Howto install
 
 ```
-sudo apt install nodejs npm
+sudo apt install nodejs npm libudev-dev libusb-1.0-0-dev
 ```
 
-Install node dependencies
+Install dependencies
 ```
 cd project-dir && npm install
 ```
