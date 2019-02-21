@@ -33,14 +33,12 @@ Put these lines into your ~/.bashrc or ~/.zshrc (depending on the shell you are 
 ```
 alias shallow='echo -n "green" | nc -w 1 -u localhost 1337'
 alias deep='echo -n "red" | nc -w 1 -u localhost 1337'
-
 ```
 source your *rc or open a new terminal to apply the aliases
 
 ```
 source ~/.bashrc  (Again, depends on your shell)
 ```
-
 Try running "shallow" and "deep"
 
 
