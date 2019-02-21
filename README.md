@@ -41,6 +41,10 @@ source ~/.bashrc  (Again, depends on your shell)
 ```
 Try running "shallow" and "deep"
 
+### Over ssh
+```
+echo -n "red" | ssh user@device "nc -w 1 -u kiosk-01 1337"
+```
 
 ### Note
 If you wanna control the daemon over the network, remember to bind to 0.0.0.0 or whatever interface you want the daemon to listen on(default is localhost)
@@ -53,5 +57,5 @@ If you can't connect to the daemon, check if "localhost" resolves to 127.0.0.1 -
 - [ ] Create udev rule
 - [X] Create systemd service file
 - [ ] Support request status
-- [ ] Example showing how to send commands to the deamon over ssh
+- [X] Example showing how to send commands to the deamon over ssh
 
