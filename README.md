@@ -29,11 +29,20 @@ echo -n "red" | nc -w 1 -u localhost 1337
 5. If running as expected, add to startup: sudo systemctl enable iminflow.service
 
 ### Some extra
+Put these lines into your ~/.bashrc or ~/.zshrc (depending on the shell you are using)
 ```
 alias shallow='echo -n "green" | nc -w 1 -u localhost 1337'
 alias deep='echo -n "red" | nc -w 1 -u localhost 1337'
 
 ```
+source your *rc or open a new terminal to apply the aliases
+
+```
+source ~/.bashrc  (Again, depends on your shell)
+```
+
+Try running "shallow" and "deep"
+
 
 ### Note
 If you wanna control the daemon over the network, remember to bind to 0.0.0.0 or whatever interface you want the daemon to listen on(default is localhost)
