@@ -1,7 +1,7 @@
 # Howto install
 
 ```
-sudo apt install nodejs
+sudo apt install nodejs npm
 ```
 
 Install node dependencies
