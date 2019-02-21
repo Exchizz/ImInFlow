@@ -22,9 +22,7 @@ server.on('message', function (message, remote) {
     color = message;
 
     //sending msg
-    server.send(message,remote.port,HOST,function(error){
-        server.close();
-    });
+    server.send(message,remote.port,HOST,function(error){});
 
 
 });
