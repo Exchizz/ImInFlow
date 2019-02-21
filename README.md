@@ -38,4 +38,5 @@ If you can't connect to the daemon, check if "localhost" resolves to 127.0.0.1 -
 - [ ] Support sound
 - [ ] Create udev rule
 - [X] Create systemd service file
+- [ ] Support request status
 
