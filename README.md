@@ -41,7 +41,7 @@ source ~/.bashrc  (Again, depends on your shell)
 ```
 Try running "shallow" and "deep"
 
-### Over ssh
+#### Over ssh
 ```
 echo -n "red" | ssh user@device "nc -w 1 -u kiosk-01 1337"
 ```
