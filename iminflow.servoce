@@ -1,0 +1,13 @@
+[Unit]
+Description=ImInFlow daemon
+After=network.target
+
+[Service]
+WorkingDirectory=/home/pi/ImInFlow
+ExecStart=/usr/bin/nodejs index.js
+Restart=on-failure
+User=root
+
+[Install]
+WantedBy=multi-user.target
+
