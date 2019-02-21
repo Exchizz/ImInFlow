@@ -21,6 +21,9 @@ ex.
 echo -n "red" | nc -w 1 -u localhost 1337
 ```
 
+### Note
+If you wanna control the daemon over the network, remember to bind to 0.0.0.0 or whatever interface you want the daemon to listen on(default is localhost)
+Yes, yes it's written in javascript:b
 
 ## TODO:
 - [ ] Support blink
