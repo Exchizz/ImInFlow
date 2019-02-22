@@ -58,4 +58,4 @@ If you can't connect to the daemon, check if "localhost" resolves to 127.0.0.1 -
 - [X] Create systemd service file
 - [ ] Support request status
 - [X] Example showing how to send commands to the deamon over ssh
-
+- [ ] Call server every X second so we can see each others status
